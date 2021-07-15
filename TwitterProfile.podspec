@@ -26,14 +26,14 @@ TwitterProfile mimics the nested scroll behaviour of the twitter profile screen.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'OfTheWolf' => 'uguboz@gmail.com' }
   s.source           = { :git => 'https://github.com/OfTheWolf/TwitterProfile.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/nyanyophytjaso'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'TwitterProfile/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TwitterProfile' => ['TwitterProfile/Assets/*.png']
+  s.resource_bundles = {
+     'TwitterProfile' => ['https://pbs.twimg.com/profile_images/1345435536635224064/M9ZaeWeN_400x400.jpg']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
